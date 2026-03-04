@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LayoutsRegisterLogin"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Ex6Activity" />
+        <activity android:name=".Ex7Activity" />
+        <activity android:name=".Ex7LinearActivity" />
+        <activity android:name=".Ex7RelativeActivity" />
+        <activity android:name=".Ex7ConstraintActivity" />
+        <activity android:name=".Ex8Activity" />
+        <activity android:name=".Ex9Activity" />
+        <activity android:name=".Ex10Activity" />
+        <activity android:name=".Ex10HorizontalActivity" />
+        <activity android:name=".Ex10VerticalActivity" />
+
+    </application>
+
+</manifest>

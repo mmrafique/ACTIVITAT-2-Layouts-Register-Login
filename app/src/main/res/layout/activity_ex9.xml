@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".Ex9Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matriculació"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona les matèries:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <CheckBox
+        android:id="@+id/cbMaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matemàtiques"
+        tools:ignore="HardcodedText" />
+
+    <CheckBox
+        android:id="@+id/cbPhysics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Física"
+        tools:ignore="HardcodedText" />
+
+    <CheckBox
+        android:id="@+id/cbChemistry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Química"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el torn:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/rgShift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/rbMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matí"
+            android:checked="true"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/rbAfternoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarda"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmitEnrollment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Matriculació"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
